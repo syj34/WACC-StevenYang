@@ -142,8 +142,6 @@ class Image:
         cv.line(self.img, (topLeft[0], topLeft[1]), (int(x), int(factor)), (0, 0, 255), 2)
         cv.line(self.img, (topRight[0], topRight[1]), (int(x2), int(factor2)), (0, 0, 255), 2)
 
-        return self.img
-
 
 
 
